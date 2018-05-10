@@ -1,3 +1,5 @@
+
+// takes two arr arguments, concats them in new arr and returns new arr
 const theBeatlesPlay = (musiciansArr, InstrumentArr) => {
   const emptyArr = [];
   for ( let i = 0; i < musiciansArr.length && i < InstrumentArr.length; i++) {
@@ -7,6 +9,8 @@ const theBeatlesPlay = (musiciansArr, InstrumentArr) => {
   return emptyArr;
 };
 
+// takes an arr argument, iterates over it to create new string,
+// and pushes it to the new arr which will be returned
 const johnLennonFacts = facts => {
   const newArr = [];
   let iter = 0;
@@ -18,6 +22,7 @@ const johnLennonFacts = facts => {
   return newArr;
 };
 
+// takes a num, and executes loop at least once (do while loop)
 const iLoveTheBeatles = num => {
   const newArr = [];
   do {
