@@ -22,7 +22,8 @@ const johnLennonFacts = facts => {
   return newArr;
 };
 
-// takes a num, and executes loop at least once (do while loop)
+// takes a num, and executes loop at least once (do while loop) to
+// create new strings in a new arr and returns new arr
 const iLoveTheBeatles = num => {
   const newArr = [];
   do {
